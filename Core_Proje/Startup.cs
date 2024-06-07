@@ -91,7 +91,7 @@ namespace Core_Proje
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                  name: "areas",
+                  name: "Index",
                   pattern: "{area:exists}/{controller=Default}/{action=Index}/{id?}"
                 );
             });
